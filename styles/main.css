@@ -1,5 +1,5 @@
 *{
-  font-family: monospace;
+  font-family: 'Griffy', cursive;
   text-decoration: none;
 }
 
@@ -25,7 +25,14 @@ header nav li{
 
 }
 
-ul{
+p {
+  text-align: center;
+}
+h3 {
+  text-align: center;
+}
+
+header ul{
   margin-top: 6%;
 }
 
@@ -39,11 +46,6 @@ header nav {
   height: 100%;
 }
 
-/*#top_section{
-background-image: url ("assets/hero.jpg")
-}*/
-
-
 section h1{
   background-image: url(../assets/hero.jpg);
   background-size: cover;
@@ -51,8 +53,6 @@ section h1{
   padding: 130px;
   text-align: center;
   font-size: -webkit-xxx-large;
-
-
 }
 
 section h2{
@@ -99,14 +99,27 @@ main:nth-child(3) {
 main:last-child {
   width: 100%;last section of main
 }
-
-footer {
-  width: 100%;
-  text-align: left;
-}
-
 article {
   width: 30%;
   display:inline-block;
   vertical-align: top;
+}
+  img{
+    width:100%;
+    height: auto;
+}
+}
+#disclaimer{
+  text-align: left;
+  width: 40%;
+  padding-left: 10%;
+}
+
+h4 {
+  padding-left: 10%;
+}
+footer nav li{
+  margin-top: 2%;
+  width: 200px;
+  display: list-item;
 }
