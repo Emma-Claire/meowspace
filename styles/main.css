@@ -17,6 +17,7 @@ header {
 header h2{
   margin: 2% 10%;
   width: 20%;
+  font-size: 1.5rem;
 }
 header nav li{
   margin-top: 2%;
@@ -70,6 +71,7 @@ section h1{
   font-size: 7em;
   margin-bottom: 0%;
   margin-top: -1%;
+  color: beige;
 }
 
 .the-posts h2{
@@ -100,7 +102,7 @@ main {
 
 .the-posts p{
   text-align: center;
-  padding-bottom: 17%;
+  padding-bottom: 6%;
 }
 
 main section {
@@ -113,26 +115,17 @@ main:first-child {
 
 }
 
-main:nth-child(2) {
-  width: 100%;second child of main
-}
-
-
-main:nth-child(3) {
-  width: 100%;  third child of main (join the club)
-
-}
-
-main:last-child {
-  width: 100%;
-  display: inline-block;
-}
 article {
   width: 30%;
   display:inline-block;
   vertical-align: top;
   margin-top: 6%;
 }
+
+article p::first-letter{
+  font-size: 200%;
+}
+
 img{
   padding-left: 50%;
   /*float: right;*/
@@ -200,4 +193,5 @@ footer ul{
   font-size: 6em;
   margin-top: 0%;
   margin-bottom: -2%;
+  color: beige;
 }
