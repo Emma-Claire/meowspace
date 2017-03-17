@@ -1,10 +1,11 @@
 *{
   font-family: 'Griffy', cursive;
   text-decoration: none;
+  color: grey;
 }
 
 header {
-  background: grey;
+  background: lightsalmon;
   position: fixed;
   top: 0px;
   width: 100%;
@@ -30,12 +31,26 @@ p {
 }
 h3 {
   text-align: center;
+  border-bottom: lightsalmon 3px solid;
+  padding-bottom: 5%;
+  font-size: larger;
+  margin-top: 1%;
+}
+
+article a{
+  border: lightsalmon 3px solid;
+  border-radius: 25px;
+  padding: 5%;
+  background-color: lightsalmon;
+}
+
+article a:hover{
+  color: maroon;
 }
 
 header ul{
   margin-top: 6%;
 }
-
 
 header nav {
   list-style: none;
@@ -50,12 +65,14 @@ section h1{
   background-image: url(../assets/hero.jpg);
   background-size: cover;
   background-position: center;
-  padding: 130px;
+  padding: 271px;
   text-align: center;
-  font-size: -webkit-xxx-large;
+  font-size: 7em;
+  margin-bottom: 0%;
+  margin-top: -1%;
 }
 
-section h2{
+.the-posts h2{
   font-size: -webkit-xxx-large;
   text-align:center;
 }
@@ -67,18 +84,27 @@ main {
 .the-posts{
   margin-left: 10%;
   margin-right: 10%;
+  padding-top: 1%;
+  padding-bottom: 6%;
+  padding-left: 3%;
 }
 .the-posts article{
-  border: red 5px solid;
+  border: lightsalmon 3px solid;
   width: 25%;
-  height: 15rem;
+  height: 18rem;
   margin-left: 3%;
   margin-right: 3%;
+  border-radius: 25px;
+  padding-top: 1%;
+}
 
+.the-posts p{
+  text-align: center;
+  padding-bottom: 17%;
 }
 
 main section {
-  background: yellow;
+  background: white;
 }
 
 main:first-child {
@@ -94,20 +120,44 @@ main:nth-child(2) {
 
 main:nth-child(3) {
   width: 100%;  third child of main (join the club)
+
 }
 
 main:last-child {
-  width: 100%;last section of main
+  width: 100%;
+  display: inline-block;
 }
 article {
   width: 30%;
   display:inline-block;
   vertical-align: top;
+  margin-top: 6%;
 }
-  img{
-    width:100%;
-    height: auto;
+img{
+  padding-left: 50%;
+  /*float: right;*/
+  clear:both;
+  height: 300px;
+  width: 38%;
+  display: block;
 }
+
+#join{
+  text-align: center;
+  padding-left: 18%;
+  width: 24%;
+  padding-top: 1%;
+  display: inline-block;
+  margin-bottom: -1%;
+}
+
+#join-the-club{
+  text-align: left;
+  padding-right: 56%;
+  padding-left: 16%;
+  display: block;
+  float: left;
+
 }
 #disclaimer{
   text-align: left;
@@ -122,4 +172,32 @@ footer nav li{
   margin-top: 2%;
   width: 200px;
   display: list-item;
+}
+footer{
+  background-color: lightsalmon;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+footer ul{
+  width: 25%;
+  float: right;
+  display: block;
+  padding: 0;
+  margin: -92px;
+}
+
+#section-background{
+  background-color: lightsalmon;
+}
+
+#background-image{
+  background-image: url(../assets/everybody.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 217px;
+  text-align: center;
+  font-size: 6em;
+  margin-top: 0%;
+  margin-bottom: -2%;
 }
